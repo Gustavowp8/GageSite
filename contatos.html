@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Design sem nome-Photoroom.png-Photoroom.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/contatos.css">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Inicio</title>
+</head>
+<body onload="carregar()">
+    
+    <header id="header">
+        <a id="logo" href="index.html"><img src="img/logo.png"></a>
+
+        <nav id="nav">
+
+            <button id="btn-mobile">
+                <span id="hamburger"></span>
+            </button>
+
+            <ul id="menu">
+                <li><a href="meuprojeto.html">Meu Projeto</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="one.html" id="onesite">ONE SITE</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="fContatos">
+
+        <form>
+            <div class="rTopo">
+            <h2>Formulário de Contato</h2>
+            <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
+            </div>
+
+            <div class="campoLp">
+              <label for="nomeL">Nome:</label>
+              <input type="text" id="nomeL" name="nomeL" placeholder="Digite seu nome completo" required>
+            </div>
+
+            <div class="campoLp">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Digite seu email">
+            </div>
+            <div class="campoLp">
+              <label for="telefone">Telefone:</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="Digite seu número de telefone">
+            </div>
+            <div class="campoLp">
+              <label for="mensagem">Mensagem:</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Descreva o seu projeto ou o serviço que deseja conhecer"></textarea>
+            </div>
+            <button onclick="msgEnviar()">Enviar</button>
+          </form>
+
+    </div> <br> <hr>
+
+    <div class="rTopo">
+        <h2>Outros meios de contatos</h2>
+    <p>Você também pode falar com a gente atraves deste meios de comunicação.</p>
+
+    <div class="social">
+        <div class="item" onclick="chamaInsta()"><img src="img/instagram.png" alt=""></div>
+        <div class="item" onclick="chamaWhast()"><img src="img/whatsapp.png" alt=""></div>
+        <div class="item" onclick="chamaYou()"><img src="img/youtube.png" alt=""></div>
+        <div class="item" onclick="chamaEmail()"><img src="img/envelope.png" alt=""></div>
+    </div>
+
+    </div> <br>
+
+    <footer>
+        © 2024 GageDev. Todos os direitos reservados.
+      </footer>
+
+    <script src="funcao/app.js"></script>
+</body>
+</html>

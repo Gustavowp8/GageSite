@@ -1,0 +1,134 @@
+.mPerfil{
+    height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, #ffffff, #745bff7e);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.imagem5{
+    transition: all .5s;
+    border: 10px solid transparent;
+    width: 160px;
+
+    border-radius: 100%;
+  object-fit: contain;
+}
+
+.imagem5:hover{
+    border: 10px solid #745bff;
+    border-radius: 50%;
+}
+
+.perfilDois{
+    background: #ffffff;
+    max-width: 600px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 20px;
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.perfilDois h2{
+    margin-top: -10px;
+}
+
+.perfilDois p{
+    margin-top: -15px;
+}
+
+#texto{
+    margin-top: 15px;
+}
+.perfilDois a{
+    background: #745bff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* OneSite */
+
+.logoOne img{
+    width: 150px;
+}
+
+.logoOne{
+    text-align: center;
+}
+
+.areaapr{
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+}
+
+.areaapr p{
+    text-align: center;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .areaTextoSite{
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ffffff62;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .areaTextoSite h3{
+    text-align: center;
+  }
+
+  .areaTextoSite li{
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .areaTextoSite a{
+    background: #745bff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+
+@media(max-width: 600px){
+    .perfilDois{
+        padding: 10px;
+        margin: 15px;
+    }
+
+}

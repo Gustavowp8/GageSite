@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Design sem nome-Photoroom.png-Photoroom.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/sobre.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Inicio</title>
+</head>
+<body onload="carregar()" class="mPerfil">
+    
+    <header id="header">
+        <a id="logo" href="index.html"><img src="img/logo.png"></a>
+
+        <nav id="nav">
+
+            <button id="btn-mobile">
+                <span id="hamburger"></span>
+            </button>
+
+            <ul id="menu">
+                <li><a href="meuprojeto.html">Meu Projeto</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="one.html" id="onesite">ONE SITE</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="logoOne">
+
+        <img src="img/OneSite-Photoroom.png-Photoroom.png" alt="">
+
+    </div>
+
+    <div class="areaapr">
+
+        <!-- Swiper -->
+            <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="OneImg/001.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="OneImg/002.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="OneImg/003.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="OneImg/004.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="OneImg/005.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="OneImg/006.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="OneImg/007.png" />
+                        </div>
+                    </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <p>araste para o lado < - ></p>
+    </div>
+
+    <div class="areaTextoSite">
+
+        <h3>Entenda o OneSite</h3>
+
+        <p>
+            O One Site e o site da Gage com apenas uma página, nesta pagina o cliente mostra todo o conteúdo de seu trabalho como até 15 fotos e um vídeo, tem bio para a descrição do trabalho e integração com as suas redes sociais.<br> 
+            O One Site te da direito aos seguintes itens.
+            <ul>
+                <li>Area de bio e contatos</li>
+                <li>Uma foto para o perfil ou logo</li>
+                <li>Uma área de capa como uma foto</li>
+                <li>Area para 15 fotos</li>
+                <li>Uma área para vídeo</li>
+                <li>Um domino <b>“Endereço do seu site”</b></li>
+            </ul> <br>
+            E custa apenas <b>R$ 150,00 reais por mês</b>. 
+            Para saber mais clique no link abaixo. 
+
+        </p>
+
+        <a href="https://wa.me/556135752752?text=Ol%C3%A1+quero+conhecer+o+One+Site">Chamar no WhatsApp</a>
+
+    </div> <br>
+
+    <footer>
+        © 2024 GageDev. Todos os direitos reservados.
+      </footer>
+    <script src="funcao/app.js"></script>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>

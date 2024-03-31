@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, ul{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif; 
+}
+
+a:hover{
+    background: rgba(0, 0, 0, 0.205);
+}
+
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#logo img{
+    width: 120px;
+}
+
+#header{
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d9d9d9;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.372);
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a{
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+#onesite{
+    border: 2px solid #745bff;
+    border-radius: 20px;
+    background: #ffffff;
+    color: #745bff;
+}
+
+#imagem{
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.boasVindas{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.boasVindasDois{
+    border: 1px solid rgba(0, 0, 0, 0.122);
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+
+    background-image: url(../img/001-manha.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boasVindasDois h3{
+   display: block;
+   border-radius: 20px;
+}
+
+.conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.opcs{
+    border: 1px solid black;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.opcs ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    /*padding: 5px;*/
+}
+
+.opcs a{
+    padding: 5px;
+}
+
+.opcsCapa h4{
+    text-align: center;
+    margin-bottom: -5x;
+}
+
+#opcLink a{
+    color: #ffffff;
+}
+
+#opcLink{
+    background: #745bff;
+    padding: 5px;
+    border-radius: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.window {
+    /*max-width: 300px;*/
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+  }
+
+  .window h3{
+    text-align: center;
+  }
+
+  .window img{
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .title-bar {
+    height: 30px;
+    background-color: #745bff;
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .close-btn {
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .window {
+      width: 90%;
+    }
+  }
+
+  #simples{
+    align-items: center;
+    text-align: center;
+  }
+
+  #simples button{
+    background: #745bff;
+    border: 1px solid #745bff;
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+  footer {
+    flex-shrink: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    footer {
+      padding: 20px;
+    }
+  }
+
+  /* area 3 */
+  .container {
+    width: 300px;
+    padding: 16px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  textarea{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus , input[type=email]:focus, input[type=tel]:focus  {
+    background-color: #745bff34;
+    outline: none;
+  }
+  
+  .btn {
+    background-color: #745bff;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  #logIn{
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .popup{
+    background: rgba(0, 0, 0, 0.637);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+
+  .popupTres img{
+    width: 90px;
+  }
+
+  .popupTres h3{
+    margin-top: -10px;
+  }
+
+  .popupTres{
+    margin: 0 auto;
+    margin-top: 10%;
+    background: #ffffff;
+    max-width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #btnFecha{
+    padding: 5px;
+    background: red;
+    color: #ffffff;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+@media(max-width: 600px){
+
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #d9d9d9;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu{
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.486);
+        
+    }
+
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 5rem;
+    }
+
+    #hamburger{
+        border-top: 2px solid;
+        width: 20px;
+        display: block;
+        color: black;
+    }
+
+    #hamburger::after, #hamburger::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger{
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before{
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    .popupTres{
+        margin: 10px;
+        margin-top: 30%;
+    }
+}

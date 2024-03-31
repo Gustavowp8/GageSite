@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Design sem nome-Photoroom.png-Photoroom.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Inicio</title>
+</head>
+<body onload="carregar()">
+    
+    <header id="header">
+        <a id="logo" href="index.html"><img src="img/logo.png"></a>
+
+        <nav id="nav">
+
+            <button id="btn-mobile">
+                <span id="hamburger"></span>
+            </button>
+
+            <ul id="menu">
+                <li><a href="meuprojeto.html">Meu Projeto</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="one.html" id="onesite">ONE SITE</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="popup" id="popup">
+        <div class="popupDois">
+            <div class="popupTres">
+
+                <img src="img/atencao.png" alt="">
+                <h3>ATENÇÃO</h3>
+                <p>
+                    Esta área foi criada para os clientes que estão com os projetos em andamento, aqui e possível conferir o andamento do projeto e solicitar alterações. 
+                </p>
+                <button id="btnFecha" onclick="btnFecha()">FECHAR</button> 
+            </div>
+        </div>
+    </div>
+
+    <div>
+
+        <form action="/action_page.php" method="post" class="container">
+
+            <img id="logIn" src="img/Design sem nome-Photoroom.png-Photoroom.png" alt=""> <br>
+
+            <label for="uname"><b>Usuário</b></label>
+            <input type="text" placeholder="Insira o Usuário" name="uname" required>
+          
+            <label for="psw"><b>Senha</b></label>
+            <input type="password" placeholder="Insira a Senha" name="psw" required>
+          
+            <button onclick="acesso()" class="btn">ENTRAR</button>
+          </form>
+
+    </div>
+
+    <br><br><br><br><br><br>  <br><br><br><br><br><br>  <br><br><br><br><br><br>
+
+    <footer>
+        © 2024 GageDev. Todos os direitos reservados.
+      </footer>
+
+    <script src="funcao/app.js"></script>
+</body>
+</html>
