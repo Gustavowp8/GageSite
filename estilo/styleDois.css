@@ -3,8 +3,11 @@
 body{
     margin: 0;
     padding: 0;
+    /*
     background: radial-gradient(circle at center, #e0f2fe, #ffffff);
     height: 100vh;
+    */
+    background: #ffffff;
 
     font-family: "Poppins", sans-serif;
     font-weight: 200;
@@ -85,4 +88,12 @@ body{
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
+  }
+
+  .logoofc{
+    padding-top: 4%;
+    text-align: center;
+  }
+  .logoofc img{
+    width: 260px;
   }
