@@ -15,7 +15,9 @@ body{
 }
 
 .ftmais{
-    background: rgba(0, 0, 0, 0.623);
+    background-color: rgba(0, 0, 0, 0.425);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     max-width: 500px;
     height: 100vh;
     margin: 0 auto;
