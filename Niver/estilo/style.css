@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+
+    background-image: url(../img/fundo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.ftmais{
+    background: rgba(0, 0, 0, 0.623);
+    max-width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.ftmais img{
+    width: 300px;
+}
+
+.ftmais h1{
+    margin-top: -15px;
+    color: #daa520;
+}
+
+.ftmais button{
+    padding: 10px;
+    background: #daa520;
+    border: 1px solid #daa520;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.arepres{
+    display: flex;
+    justify-content: space-around;
+}
+
+.arepres a{
+    background: rgba(0, 0, 0, 0.445);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.arepres img{
+    width: 50px;
+}
+
+.janela{
+    background: #ffffff9d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+
+.window {
+    margin: auto;
+    margin-top: 10%;
+    max-width: 400px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .titlebar {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    cursor: move; /* Simula a capacidade de arrastar a janela */
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+
+  .content{
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .controls span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
