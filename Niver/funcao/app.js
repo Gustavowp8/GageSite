@@ -1,6 +1,6 @@
 function Presente(){
     if (confirm("Você deseja enviar um presente de R$ 40 reais para Sophia ?")) {
-        location = "https://mpago.la/1FcVm83"
+        location = "https://mpago.la/2cwuvK9"
     } else {
         // Código a ser executado se o usuário clicar em "Cancelar"
         console.log("Usuário clicou em Cancelar");
