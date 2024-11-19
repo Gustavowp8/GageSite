@@ -14,6 +14,10 @@ body{
     background-size: cover;
 }
 
+.perfilfra{
+    margin-top: 10px;
+}
+
 .ftmais{
     background-color: rgba(0, 0, 0, 0.425);
     backdrop-filter: blur(12px);
