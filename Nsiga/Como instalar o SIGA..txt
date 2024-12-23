@@ -1,0 +1,16 @@
+Como instalar o SIGA.
+
+Baixe os ARQUIVOS SIGA é extraia os arquivos
+
+Coloque a pasta no seguinte local do computador
+
+C:\Program Files (x86)
+
+***********************************************
+
+Logo em seguida baixe o Siga que normalmente estará seguido do numero da versão tipo SIGA 21
+
+Coloque esta arquivo dentro da pasta siga que esta em 
+C:\Program Files (x86)\Siga
+
+Adicione o atalho do Siga a área de trabalho.
